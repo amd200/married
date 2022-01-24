@@ -144,3 +144,22 @@ body {
   margin-right: 30px;
   border: 1px solid #b3b0b0;
 }
+
+@media(max-width:765px){
+  .content{
+    flex-direction: column;
+
+  }
+  .text{
+    margin-bottom: 20px;
+  }
+  .one{
+    margin-bottom: 30px;
+  }
+  .one:last-child{
+    margin-top: 30px;
+  }
+  body{
+    overflow: visible;
+  }
+}
